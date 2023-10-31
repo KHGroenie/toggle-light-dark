@@ -8,9 +8,9 @@ const textBox = document.getElementById('text-box');
 
 // Dark or Light Images
 function imageMode(color) {
-    image1.src = `img/hiking${color}.svg`;
-    image2.src = `img/travel${color}.svg`;
-    image3.src = `img/camping${color}.svg`;
+    image1.src = `hiking${color}.svg`;
+    image2.src = `travel${color}.svg`;
+    image3.src = `camping${color}.svg`;
 }
 function toggleDarkLightMode(isDark) {
     nav.style.backgroundColor = isDark ? 'rgb(0 0 0 /50%)' : 'rgb( 255 255 255  /50%)';
